@@ -10,6 +10,12 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <p>
+          The app has now been updated
+        </p>
+        <p>
+          Wait, it has fucking live reload!!!
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
