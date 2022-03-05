@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^2.5.1",
     "react-router-dom": "^6.2.2",
     "serve": "^13.0.2",
     "yarn-audit-fix": "^9.1.2"
