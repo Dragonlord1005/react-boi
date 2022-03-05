@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,20 +11,20 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <p>
-          The app has now been updated
-        </p>
-        <p>
-          Wait, it has fucking live reload!!!
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="cookie.tsx"
+          // target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
+        <nav>
+          <ul>
+            <li><Link to="/cookie"></Link></li>
+          </ul>
+        </nav>
+
       </header>
     </div>
   );
