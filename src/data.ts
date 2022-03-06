@@ -29,14 +29,12 @@ let invoices = [
     amount: "$4,600",
     due: "01/27/1998",
   },
-];
+]
 
 export function getInvoices() {
-  return invoices;
+  return invoices
 }
 
 export function getInvoice(number: number) {
-  return invoices.find(
-    (invoice) => invoice.number === number
-  );
+  return invoices.find(invoice => invoice.number === number)
 }

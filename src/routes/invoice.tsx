@@ -1,9 +1,9 @@
-import { useParams } from "react-router-dom";
-import { getInvoice } from "../data";
+import { useParams } from "react-router-dom"
+import { getInvoice } from "../data"
 
 export default function Invoice() {
-  let params = useParams();
-  let invoice = getInvoice(parseInt(params.invoiceId!, 10));
+  let params = useParams()
+  let invoice = getInvoice(parseInt(params.invoiceId!, 10))
   return (
     <main style={{ padding: "1rem" }}>
       <h2>Total Due: {invoice!.amount}</h2>
@@ -12,5 +12,5 @@ export default function Invoice() {
       </p>
       <p>Due Date: {invoice!.due}</p>
     </main>
-  );
+  )
 }
