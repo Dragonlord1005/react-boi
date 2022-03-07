@@ -1,3 +1,3 @@
 # React Boi
 
-A personal project where I use typescript for react, without having any previous knowledge of typescript.
+A blog I'm making with react and typescript.
