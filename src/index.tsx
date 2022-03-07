@@ -1,23 +1,12 @@
-import { render } from "react-dom"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import App from "./App"
-import "./index.css"
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { Auth0Provider } from "@auth0/auth0-react";
 
-const rootElement = document.getElementById("root")
-render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />}>
-        <Route
-          path="*"
-          element={
-            <main style={{ padding: "1rem" }}>
-              <p>Theres nothing here!</p>
-            </main>
-          }
-        />
-      </Route>
-    </Routes>
-  </BrowserRouter>,
-  rootElement
-)
+ReactDOM.render(
+  <Auth0Provider
+  >
+    <App />
+  </Auth0Provider>,
+  document.getElementById("root")
+);
