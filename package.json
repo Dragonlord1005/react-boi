@@ -28,7 +28,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve -p 8000 -s build",
-    "styleguide": "styleguidist server",
     "format": "prettier --write ."
   },
   "eslintConfig": {
