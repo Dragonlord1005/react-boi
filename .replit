@@ -6,7 +6,7 @@ channel = "stable-21_11"
 
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"
-LD_LIBRARY_PATH = "pkgs.glib/lib"
+
 
 [packager]
 language = "nodejs"

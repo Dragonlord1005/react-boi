@@ -28,6 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve -p 8000 -s build",
+    "styleguide": "styleguidist server",
     "format": "prettier --write ."
   },
   "eslintConfig": {
@@ -49,7 +50,6 @@
     ]
   },
   "devDependencies": {
-    "cypress": "9.5.1",
     "prettier": "2.5.1",
     "react-router-dom": "6.2.2",
     "serve": "13.0.2",
