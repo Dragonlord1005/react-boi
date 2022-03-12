@@ -2,5 +2,6 @@
   "extends": [
     "config:base"
   ],
-  "baseBranches": ["master", "blog"]
+  "baseBranches": ["master", "blog"],
+  "semanticCommits": "enabled"
 }
