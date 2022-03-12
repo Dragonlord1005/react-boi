@@ -7,7 +7,6 @@ channel = "stable-21_11"
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"
 
-
 [packager]
 language = "nodejs"
 
